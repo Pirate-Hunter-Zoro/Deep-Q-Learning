@@ -1,6 +1,6 @@
 # About
 This is a repository containing my implementation of various problems and data structure implementations from NeetCode in Python. My instructions apply only to Mac and Linux users - Windows users are unfortunately on their own in getting this code to run on their machines!
-I am assuming you have Homebrew installed, as well as pyenv installed via Homebrew. 
+I am assuming you have Homebrew installed, as well as both pyenv and swig installed via Homebrew. 
 
 ## Instruction
 1. Navigate to a folder on your computer where you would like to clone this project via the command line and run the following command:<br>
@@ -16,7 +16,8 @@ This will create a folder called "Deep-Q-Learning" in your current folder.
 5. Activate the virtual environment:<br>
    ```source deep-q-env/bin/activate```
 6. Install the necessary Python libraries:<br>
-   ```pip install -r requirements.txt```
+   ```pip install -r requirements.txt```<br>
+   (If that doesn't work, ensure you have installed swig:```brew install swig```)
 7. At this point, you should be able to allow VSCode to configure your Python tests and you can run them should you choose to!
 
 ## Useful Note
