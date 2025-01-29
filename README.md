@@ -9,16 +9,15 @@ This will create a folder called "Deep-Q-Learning" in your current folder.
 2. Navigate into this folder.<br>
    ```cd Deep-Q-Learning```
 3. Create a python virtual environment named "deep-q-env" (or whatever you want to call it) via the following commands:<br>
-   ```pyenv install 3.10```<br>
+   ```pyenv install 3.10```
+4. Create a python environment with said python version:<br>
    ```pyenv virtualenv 3.10 deep-q-env```
-4. Move the virtual environment to this directory:<br>
-   ```mv ~/.pyenv/versions/3.10.16/envs/deep-q-env .```
 5. Activate the virtual environment:<br>
-   ```source deep-q-env/bin/activate```
+   ```pyenv activate deep-q-env```
 6. Install the necessary Python libraries:<br>
    ```pip install -r requirements.txt```<br>
-   (If that doesn't work, ensure you have installed swig:```brew install swig```)
-7. At this point, you should be able to allow VSCode to configure your Python tests and you can run them should you choose to!
+   (If that doesn't work, ensure you have installed swig:<br>```brew install swig```)
+7. At this point, you should be able to open a notebook in VSCode and select the correct Python interpretter (the virtual environment you just created).
 
 ## Useful Note
 To write all of the requirements in the Python virtual library into "requirements.txt", run the following command:<br>
