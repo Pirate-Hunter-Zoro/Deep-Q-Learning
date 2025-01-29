@@ -16,6 +16,8 @@ flax==0.10.2
 fonttools==4.54.1
 fsspec==2024.10.0
 glfw==2.8.0
+gym==0.26.2
+gym-notices==0.0.8
 gymnasium==1.0.0
 humanize==4.11.0
 imageio==2.37.0
